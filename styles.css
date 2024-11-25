@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   display: flex;
   align-items: center;
@@ -8,11 +11,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-sizing: border-box;
+  width: 200px;
+  height: 300px;
+  border: 2px solid blue;
 }
-#display {
-  height: 24px;
+.display {
+  margin: 0;
+  padding: 0;
   border: 1px solid black;
+  min-height: 50px;
 }
 .row, .row_cl { 
   display: flex;
@@ -20,4 +27,17 @@ body {
 
 .row_cl { 
   justify-content: end;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 200px;
+}
+.buttons button {
+  border: 1px solid lightblue;
+  outline: none;
+  height: 50px;
+  width: 50px;
 }
