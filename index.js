@@ -1,4 +1,5 @@
 const operations = require('./scripts/operations');
+
 let operand1;
 let operand2;
 let operator;
@@ -17,3 +18,4 @@ const operate = (operator, operand1, operand2) => {
       return "ERR";
   }
 }
+

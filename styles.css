@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+#display {
+  height: 24px;
+  border: 1px solid black;
+}
+.row, .row_cl { 
+  display: flex;
+}
+
+.row_cl { 
+  justify-content: end;
+}
